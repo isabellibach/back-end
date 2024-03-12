@@ -1,0 +1,205 @@
+MIME-Version: 1.0
+Date: Fri, 8 Mar 2024 11:58:02 -0300
+Message-ID: <CAPrNCu30yAadRN14dgQq=VF-RXXD0HxeYyh3HBzTNCmNAXeTRA@mail.gmail.com>
+Subject: 
+From: KAUANY ANTUNES <antunes.kauany@escola.pr.gov.br>
+To: GIOVANA BRASIL DOS SANTOS <giovana.brasil.santos@escola.pr.gov.br>
+Content-Type: multipart/alternative; boundary="00000000000029176f0613276b00"
+
+--00000000000029176f0613276b00
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+function calcularAreaQuadrado() {
+var lado =3D parseFloat(document.getElementById('ladoQuadrado').value);
+var area =3D lado * lado;
+document.getElementById('resultadoQuadrado').innerHTML =3D '=C3=81rea do Qu=
+adrado:
+' + area.toFixed(2);
+}
+
+// Express=C3=A3o de fun=C3=A7=C3=A3o
+var calcularAreaCirculo =3D function() {
+var raio =3D parseFloat(document.getElementById('raioCirculo').value);
+var area =3D Math.PI * Math.pow(raio, 2);
+document.getElementById('resultadoCirculo').innerHTML =3D '=C3=81rea do C=
+=C3=ADrculo: '
++ area.toFixed(2);
+};
+
+// Nota=C3=A7=C3=A3o de fun=C3=A7=C3=A3o de seta
+var calcularAreaTriangulo =3D () =3D> {
+var base =3D parseFloat(document.getElementById('baseTriangulo').value);
+var altura =3D parseFloat(document.getElementById('alturaTriangulo').value)=
+;
+var area =3D (base * altura) / 2;
+document.getElementById('resultadoTriangulo').innerHTML =3D '=C3=81rea do
+Tri=C3=A2ngulo: ' + area.toFixed(2);
+};
+
+--00000000000029176f0613276b00
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"color:rgb(187,187,187);background-color:rgb(=
+41,49,52);font-family:&quot;Droid Sans Mono&quot;,&quot;monospace&quot;,mon=
+ospace;font-weight:normal;font-size:14px;line-height:19px;white-space:pre">=
+<div><span style=3D"color:rgb(103,140,177)">function</span><span style=3D"c=
+olor:rgb(187,187,187)"> </span><span style=3D"color:rgb(224,226,228)">calcu=
+larAreaQuadrado</span><span style=3D"color:rgb(250,250,250)">()</span><span=
+ style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,=
+250)">{</span></div><div><span style=3D"color:rgb(187,187,187)">    </span>=
+<span style=3D"color:rgb(103,140,177)">var</span><span style=3D"color:rgb(1=
+87,187,187)"> </span><span style=3D"color:rgb(250,250,250)">lado</span><spa=
+n style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250=
+,250)">=3D</span><span style=3D"color:rgb(187,187,187)"> </span><span style=
+=3D"color:rgb(224,226,228)">parseFloat</span><span style=3D"color:rgb(187,1=
+87,187)">(</span><span style=3D"color:rgb(250,250,250)">document.</span><sp=
+an style=3D"color:rgb(224,226,228)">getElementById</span><span style=3D"col=
+or:rgb(187,187,187)">(</span><span style=3D"color:rgb(250,250,250)">&#39;</=
+span><span style=3D"color:rgb(252,182,80)">ladoQuadrado</span><span style=
+=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"color:rgb(187,187,18=
+7)">)</span><span style=3D"color:rgb(250,250,250)">.value</span><span style=
+=3D"color:rgb(187,187,187)">)</span><span style=3D"color:rgb(250,250,250)">=
+;</span></div><div><span style=3D"color:rgb(187,187,187)">    </span><span =
+style=3D"color:rgb(103,140,177)">var</span><span style=3D"color:rgb(187,187=
+,187)"> </span><span style=3D"color:rgb(250,250,250)">area</span><span styl=
+e=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)"=
+>=3D</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"co=
+lor:rgb(250,250,250)">lado</span><span style=3D"color:rgb(187,187,187)"> </=
+span><span style=3D"color:rgb(250,250,250)">*</span><span style=3D"color:rg=
+b(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">lado;</span>=
+</div><div><span style=3D"color:rgb(187,187,187)">    </span><span style=3D=
+"color:rgb(250,250,250)">document.</span><span style=3D"color:rgb(224,226,2=
+28)">getElementById</span><span style=3D"color:rgb(187,187,187)">(</span><s=
+pan style=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"color:rgb(2=
+52,182,80)">resultadoQuadrado</span><span style=3D"color:rgb(250,250,250)">=
+&#39;</span><span style=3D"color:rgb(187,187,187)">)</span><span style=3D"c=
+olor:rgb(250,250,250)">.innerHTML</span><span style=3D"color:rgb(187,187,18=
+7)"> </span><span style=3D"color:rgb(250,250,250)">=3D</span><span style=3D=
+"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">&#3=
+9;</span><span style=3D"color:rgb(252,182,80)">=C3=81rea do Quadrado: </spa=
+n><span style=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"color:r=
+gb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">+</span><sp=
+an style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,25=
+0,250)">area.</span><span style=3D"color:rgb(224,226,228)">toFixed</span><s=
+pan style=3D"color:rgb(187,187,187)">(</span><span style=3D"color:rgb(252,1=
+82,80)">2</span><span style=3D"color:rgb(187,187,187)">)</span><span style=
+=3D"color:rgb(250,250,250)">;</span></div><div><span style=3D"color:rgb(250=
+,250,250)">}</span></div><br><div><span style=3D"color:rgb(93,105,113)">// =
+Express=C3=A3o de fun=C3=A7=C3=A3o</span></div><div><span style=3D"color:rg=
+b(103,140,177)">var</span><span style=3D"color:rgb(187,187,187)"> </span><s=
+pan style=3D"color:rgb(224,226,228)">calcularAreaCirculo</span><span style=
+=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">=
+=3D</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"col=
+or:rgb(103,140,177)">function</span><span style=3D"color:rgb(250,250,250)">=
+()</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"colo=
+r:rgb(250,250,250)">{</span></div><div><span style=3D"color:rgb(187,187,187=
+)">    </span><span style=3D"color:rgb(103,140,177)">var</span><span style=
+=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">=
+raio</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"co=
+lor:rgb(250,250,250)">=3D</span><span style=3D"color:rgb(187,187,187)"> </s=
+pan><span style=3D"color:rgb(224,226,228)">parseFloat</span><span style=3D"=
+color:rgb(187,187,187)">(</span><span style=3D"color:rgb(250,250,250)">docu=
+ment.</span><span style=3D"color:rgb(224,226,228)">getElementById</span><sp=
+an style=3D"color:rgb(187,187,187)">(</span><span style=3D"color:rgb(250,25=
+0,250)">&#39;</span><span style=3D"color:rgb(252,182,80)">raioCirculo</span=
+><span style=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"color:rg=
+b(187,187,187)">)</span><span style=3D"color:rgb(250,250,250)">.value</span=
+><span style=3D"color:rgb(187,187,187)">)</span><span style=3D"color:rgb(25=
+0,250,250)">;</span></div><div><span style=3D"color:rgb(187,187,187)">    <=
+/span><span style=3D"color:rgb(103,140,177)">var</span><span style=3D"color=
+:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">area</spa=
+n><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(2=
+50,250,250)">=3D</span><span style=3D"color:rgb(187,187,187)"> </span><span=
+ style=3D"color:rgb(250,250,250)">Math.PI</span><span style=3D"color:rgb(18=
+7,187,187)"> </span><span style=3D"color:rgb(250,250,250)">*</span><span st=
+yle=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250=
+)">Math.</span><span style=3D"color:rgb(224,226,228)">pow</span><span style=
+=3D"color:rgb(187,187,187)">(</span><span style=3D"color:rgb(250,250,250)">=
+raio,</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"c=
+olor:rgb(252,182,80)">2</span><span style=3D"color:rgb(187,187,187)">)</spa=
+n><span style=3D"color:rgb(250,250,250)">;</span></div><div><span style=3D"=
+color:rgb(187,187,187)">    </span><span style=3D"color:rgb(250,250,250)">d=
+ocument.</span><span style=3D"color:rgb(224,226,228)">getElementById</span>=
+<span style=3D"color:rgb(187,187,187)">(</span><span style=3D"color:rgb(250=
+,250,250)">&#39;</span><span style=3D"color:rgb(252,182,80)">resultadoCircu=
+lo</span><span style=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"=
+color:rgb(187,187,187)">)</span><span style=3D"color:rgb(250,250,250)">.inn=
+erHTML</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"=
+color:rgb(250,250,250)">=3D</span><span style=3D"color:rgb(187,187,187)"> <=
+/span><span style=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"col=
+or:rgb(252,182,80)">=C3=81rea do C=C3=ADrculo: </span><span style=3D"color:=
+rgb(250,250,250)">&#39;</span><span style=3D"color:rgb(187,187,187)"> </spa=
+n><span style=3D"color:rgb(250,250,250)">+</span><span style=3D"color:rgb(1=
+87,187,187)"> </span><span style=3D"color:rgb(250,250,250)">area.</span><sp=
+an style=3D"color:rgb(224,226,228)">toFixed</span><span style=3D"color:rgb(=
+187,187,187)">(</span><span style=3D"color:rgb(252,182,80)">2</span><span s=
+tyle=3D"color:rgb(187,187,187)">)</span><span style=3D"color:rgb(250,250,25=
+0)">;</span></div><div><span style=3D"color:rgb(250,250,250)">};</span></di=
+v><br><div><span style=3D"color:rgb(93,105,113)">// Nota=C3=A7=C3=A3o de fu=
+n=C3=A7=C3=A3o de seta</span></div><div><span style=3D"color:rgb(103,140,17=
+7)">var</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D=
+"color:rgb(224,226,228)">calcularAreaTriangulo</span><span style=3D"color:r=
+gb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">=3D</span><=
+span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,=
+250,250)">()</span><span style=3D"color:rgb(187,187,187)"> </span><span sty=
+le=3D"color:rgb(103,140,177)">=3D&gt;</span><span style=3D"color:rgb(187,18=
+7,187)"> </span><span style=3D"color:rgb(250,250,250)">{</span></div><div><=
+span style=3D"color:rgb(187,187,187)">    </span><span style=3D"color:rgb(1=
+03,140,177)">var</span><span style=3D"color:rgb(187,187,187)"> </span><span=
+ style=3D"color:rgb(250,250,250)">base</span><span style=3D"color:rgb(187,1=
+87,187)"> </span><span style=3D"color:rgb(250,250,250)">=3D</span><span sty=
+le=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(224,226,228)=
+">parseFloat</span><span style=3D"color:rgb(187,187,187)">(</span><span sty=
+le=3D"color:rgb(250,250,250)">document.</span><span style=3D"color:rgb(224,=
+226,228)">getElementById</span><span style=3D"color:rgb(187,187,187)">(</sp=
+an><span style=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"color:=
+rgb(252,182,80)">baseTriangulo</span><span style=3D"color:rgb(250,250,250)"=
+>&#39;</span><span style=3D"color:rgb(187,187,187)">)</span><span style=3D"=
+color:rgb(250,250,250)">.value</span><span style=3D"color:rgb(187,187,187)"=
+>)</span><span style=3D"color:rgb(250,250,250)">;</span></div><div><span st=
+yle=3D"color:rgb(187,187,187)">    </span><span style=3D"color:rgb(103,140,=
+177)">var</span><span style=3D"color:rgb(187,187,187)"> </span><span style=
+=3D"color:rgb(250,250,250)">altura</span><span style=3D"color:rgb(187,187,1=
+87)"> </span><span style=3D"color:rgb(250,250,250)">=3D</span><span style=
+=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(224,226,228)">=
+parseFloat</span><span style=3D"color:rgb(187,187,187)">(</span><span style=
+=3D"color:rgb(250,250,250)">document.</span><span style=3D"color:rgb(224,22=
+6,228)">getElementById</span><span style=3D"color:rgb(187,187,187)">(</span=
+><span style=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"color:rg=
+b(252,182,80)">alturaTriangulo</span><span style=3D"color:rgb(250,250,250)"=
+>&#39;</span><span style=3D"color:rgb(187,187,187)">)</span><span style=3D"=
+color:rgb(250,250,250)">.value</span><span style=3D"color:rgb(187,187,187)"=
+>)</span><span style=3D"color:rgb(250,250,250)">;</span></div><div><span st=
+yle=3D"color:rgb(187,187,187)">    </span><span style=3D"color:rgb(103,140,=
+177)">var</span><span style=3D"color:rgb(187,187,187)"> </span><span style=
+=3D"color:rgb(250,250,250)">area</span><span style=3D"color:rgb(187,187,187=
+)"> </span><span style=3D"color:rgb(250,250,250)">=3D</span><span style=3D"=
+color:rgb(187,187,187)"> (</span><span style=3D"color:rgb(250,250,250)">bas=
+e</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color=
+:rgb(250,250,250)">*</span><span style=3D"color:rgb(187,187,187)"> </span><=
+span style=3D"color:rgb(250,250,250)">altura</span><span style=3D"color:rgb=
+(187,187,187)">) </span><span style=3D"color:rgb(250,250,250)">/</span><spa=
+n style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(252,182=
+,80)">2</span><span style=3D"color:rgb(250,250,250)">;</span></div><div><sp=
+an style=3D"color:rgb(187,187,187)">    </span><span style=3D"color:rgb(250=
+,250,250)">document.</span><span style=3D"color:rgb(224,226,228)">getElemen=
+tById</span><span style=3D"color:rgb(187,187,187)">(</span><span style=3D"c=
+olor:rgb(250,250,250)">&#39;</span><span style=3D"color:rgb(252,182,80)">re=
+sultadoTriangulo</span><span style=3D"color:rgb(250,250,250)">&#39;</span><=
+span style=3D"color:rgb(187,187,187)">)</span><span style=3D"color:rgb(250,=
+250,250)">.innerHTML</span><span style=3D"color:rgb(187,187,187)"> </span><=
+span style=3D"color:rgb(250,250,250)">=3D</span><span style=3D"color:rgb(18=
+7,187,187)"> </span><span style=3D"color:rgb(250,250,250)">&#39;</span><spa=
+n style=3D"color:rgb(252,182,80)">=C3=81rea do Tri=C3=A2ngulo: </span><span=
+ style=3D"color:rgb(250,250,250)">&#39;</span><span style=3D"color:rgb(187,=
+187,187)"> </span><span style=3D"color:rgb(250,250,250)">+</span><span styl=
+e=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)"=
+>area.</span><span style=3D"color:rgb(224,226,228)">toFixed</span><span sty=
+le=3D"color:rgb(187,187,187)">(</span><span style=3D"color:rgb(252,182,80)"=
+>2</span><span style=3D"color:rgb(187,187,187)">)</span><span style=3D"colo=
+r:rgb(250,250,250)">;</span></div><div><span style=3D"color:rgb(250,250,250=
+)">};</span></div></div></div>
+
+--00000000000029176f0613276b00--

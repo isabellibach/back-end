@@ -1,0 +1,395 @@
+MIME-Version: 1.0
+Date: Fri, 8 Mar 2024 11:57:39 -0300
+Message-ID: <CAPrNCu2f5z6bmZCW-XD5G1-F1MZnk2TH2W9YsGDGqZYAFwgqoQ@mail.gmail.com>
+Subject: 
+From: KAUANY ANTUNES <antunes.kauany@escola.pr.gov.br>
+To: GIOVANA BRASIL DOS SANTOS <giovana.brasil.santos@escola.pr.gov.br>
+Content-Type: multipart/alternative; boundary="000000000000c6e1810613276918"
+
+--000000000000c6e1810613276918
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Calculadora</title>
+</head>
+<body>
+<header>
+<h1>Calculadora de =C3=81reas</h1>
+</header>
+<br><br>
+<fieldset>
+<div class=3D"calcular__triangulo">
+<h1>Tri=C3=A2ngulo</h1>
+<label for=3D"Digite">Digite a base:</label>
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Calculadora de =C3=81reas</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+}
+label {
+display: block;
+margin-top: 10px;
+}
+input {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+}
+button {
+margin-top: 10px;
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>Calculadora de =C3=81reas</h1>
+<label for=3D"ladoQuadrado">Lado do Quadrado:</label>
+<input type=3D"number" id=3D"ladoQuadrado">
+<button onclick=3D"calcularAreaQuadrado()">Calcular =C3=81rea do Quadrado</=
+button>
+<p id=3D"resultadoQuadrado"></p>
+<label for=3D"raioCirculo">Raio do C=C3=ADrculo:</label>
+<input type=3D"number" id=3D"raioCirculo">
+<button onclick=3D"calcularAreaCirculo()">Calcular =C3=81rea do C=C3=ADrcul=
+o</button>
+<p id=3D"resultadoCirculo"></p>
+<label for=3D"baseTriangulo">Base do Tri=C3=A2ngulo:</label>
+<input type=3D"number" id=3D"baseTriangulo">
+<label for=3D"alturaTriangulo">Altura do Tri=C3=A2ngulo:</label>
+<input type=3D"number" id=3D"alturaTriangulo">
+<button onclick=3D"calcularAreaTriangulo()">Calcular =C3=81rea do Tri=C3=A2=
+ngulo
+</button>
+<p id=3D"resultadoTriangulo"></p>
+<script src=3D"script.js"></script>
+</body>
+</html>
+
+--000000000000c6e1810613276918
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"color:rgb(187,187,187);background-color:rgb(=
+41,49,52);font-family:&quot;Droid Sans Mono&quot;,&quot;monospace&quot;,mon=
+ospace;font-weight:normal;font-size:14px;line-height:19px;white-space:pre">=
+<div><span style=3D"color:rgb(250,250,250)">&lt;!DOCTYPE</span><span style=
+=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(157,169,177)">=
+html</span><span style=3D"color:rgb(250,250,250)">&gt;</span></div><div><sp=
+an style=3D"color:rgb(250,250,250)">&lt;html</span><span style=3D"color:rgb=
+(187,187,187)"> </span><span style=3D"color:rgb(157,169,177)">lang</span><s=
+pan style=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:r=
+gb(252,182,80)">en</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;<=
+/span></div><div><span style=3D"color:rgb(250,250,250)">&lt;head&gt;</span>=
+</div><div><span style=3D"color:rgb(187,187,187)">    </span><span style=3D=
+"color:rgb(250,250,250)">&lt;meta</span><span style=3D"color:rgb(187,187,18=
+7)"> </span><span style=3D"color:rgb(157,169,177)">charset</span><span styl=
+e=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,1=
+82,80)">UTF-8</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;</span=
+></div><div><span style=3D"color:rgb(187,187,187)">    </span><span style=
+=3D"color:rgb(250,250,250)">&lt;meta</span><span style=3D"color:rgb(187,187=
+,187)"> </span><span style=3D"color:rgb(157,169,177)">name</span><span styl=
+e=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,1=
+82,80)">viewport</span><span style=3D"color:rgb(250,250,250)">&quot;</span>=
+<span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(157=
+,169,177)">content</span><span style=3D"color:rgb(250,250,250)">=3D&quot;</=
+span><span style=3D"color:rgb(252,182,80)">width=3Ddevice-width, initial-sc=
+ale=3D1.0</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;</span></d=
+iv><div><span style=3D"color:rgb(187,187,187)">    </span><span style=3D"co=
+lor:rgb(250,250,250)">&lt;title&gt;</span><span style=3D"color:rgb(187,187,=
+187)">Calculadora</span><span style=3D"color:rgb(250,250,250)">&lt;/title&g=
+t;</span></div><div><span style=3D"color:rgb(250,250,250)">&lt;/head&gt;</s=
+pan></div><div><span style=3D"color:rgb(250,250,250)">&lt;body&gt;</span></=
+div><div><span style=3D"color:rgb(187,187,187)">    </span><span style=3D"c=
+olor:rgb(250,250,250)">&lt;header&gt;</span></div><div><span style=3D"color=
+:rgb(187,187,187)">        </span><span style=3D"color:rgb(250,250,250)">&l=
+t;h1&gt;</span><span style=3D"color:rgb(187,187,187)">Calculadora de =C3=81=
+reas</span><span style=3D"color:rgb(250,250,250)">&lt;/h1&gt;</span></div><=
+div><span style=3D"color:rgb(187,187,187)">    </span><span style=3D"color:=
+rgb(250,250,250)">&lt;/header&gt;</span></div><div><span style=3D"color:rgb=
+(187,187,187)">        </span><span style=3D"color:rgb(250,250,250)">&lt;br=
+&gt;&lt;br&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">    =
+    </span><span style=3D"color:rgb(250,250,250)">&lt;fieldset&gt;</span></=
+div><div><span style=3D"color:rgb(187,187,187)">            </span><span st=
+yle=3D"color:rgb(250,250,250)">&lt;div</span><span style=3D"color:rgb(187,1=
+87,187)"> </span><span style=3D"color:rgb(157,169,177)">class</span><span s=
+tyle=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(25=
+2,182,80)">calcular__triangulo</span><span style=3D"color:rgb(250,250,250)"=
+>&quot;&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">       =
+         </span><span style=3D"color:rgb(250,250,250)">&lt;h1&gt;</span><sp=
+an style=3D"color:rgb(187,187,187)">Tri=C3=A2ngulo</span><span style=3D"col=
+or:rgb(250,250,250)">&lt;/h1&gt;</span></div><div><span style=3D"color:rgb(=
+187,187,187)">                </span><span style=3D"color:rgb(250,250,250)"=
+>&lt;label</span><span style=3D"color:rgb(187,187,187)"> </span><span style=
+=3D"color:rgb(157,169,177)">for</span><span style=3D"color:rgb(250,250,250)=
+">=3D&quot;</span><span style=3D"color:rgb(252,182,80)">Digite</span><span =
+style=3D"color:rgb(250,250,250)">&quot;&gt;</span><span style=3D"color:rgb(=
+187,187,187)">Digite a base:</span><span style=3D"color:rgb(250,250,250)">&=
+lt;/label&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">     =
+           </span><span style=3D"color:rgb(250,250,250)">&lt;!DOCTYPE</span=
+><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(15=
+7,169,177)">html</span><span style=3D"color:rgb(250,250,250)">&gt;</span></=
+div><div><span style=3D"color:rgb(187,187,187)">                </span><spa=
+n style=3D"color:rgb(250,250,250)">&lt;html</span><span style=3D"color:rgb(=
+187,187,187)"> </span><span style=3D"color:rgb(157,169,177)">lang</span><sp=
+an style=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rg=
+b(252,182,80)">en</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;</=
+span></div><div><span style=3D"color:rgb(187,187,187)">                </sp=
+an><span style=3D"color:rgb(250,250,250)">&lt;head&gt;</span></div><div><sp=
+an style=3D"color:rgb(187,187,187)">                    </span><span style=
+=3D"color:rgb(250,250,250)">&lt;meta</span><span style=3D"color:rgb(187,187=
+,187)"> </span><span style=3D"color:rgb(157,169,177)">charset</span><span s=
+tyle=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(25=
+2,182,80)">UTF-8</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;</s=
+pan></div><div><span style=3D"color:rgb(187,187,187)">                    <=
+/span><span style=3D"color:rgb(250,250,250)">&lt;meta</span><span style=3D"=
+color:rgb(187,187,187)"> </span><span style=3D"color:rgb(157,169,177)">name=
+</span><span style=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=
+=3D"color:rgb(252,182,80)">viewport</span><span style=3D"color:rgb(250,250,=
+250)">&quot;</span><span style=3D"color:rgb(187,187,187)"> </span><span sty=
+le=3D"color:rgb(157,169,177)">content</span><span style=3D"color:rgb(250,25=
+0,250)">=3D&quot;</span><span style=3D"color:rgb(252,182,80)">width=3Ddevic=
+e-width, initial-scale=3D1.0</span><span style=3D"color:rgb(250,250,250)">&=
+quot;&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">         =
+           </span><span style=3D"color:rgb(250,250,250)">&lt;title&gt;</spa=
+n><span style=3D"color:rgb(187,187,187)">Calculadora de =C3=81reas</span><s=
+pan style=3D"color:rgb(250,250,250)">&lt;/title&gt;</span></div><div><span =
+style=3D"color:rgb(250,250,250)">                    &lt;style&gt;</span></=
+div><div><span style=3D"color:rgb(187,187,187)">                        </s=
+pan><span style=3D"color:rgb(250,250,250)">body</span><span style=3D"color:=
+rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">{</span></=
+div><div><span style=3D"color:rgb(187,187,187)">                           =
+ </span><span style=3D"color:rgb(157,169,177)">font-family</span><span styl=
+e=3D"color:rgb(250,250,250)">:</span><span style=3D"color:rgb(187,187,187)"=
+> </span><span style=3D"color:rgb(224,226,228)">Arial</span><span style=3D"=
+color:rgb(250,250,250)">,</span><span style=3D"color:rgb(191,188,182)"> </s=
+pan><span style=3D"color:rgb(224,226,228)">sans-serif</span><span style=3D"=
+color:rgb(250,250,250)">;</span></div><div><span style=3D"color:rgb(187,187=
+,187)">                            </span><span style=3D"color:rgb(157,169,=
+177)">margin</span><span style=3D"color:rgb(250,250,250)">:</span><span sty=
+le=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(252,182,80)"=
+>20</span><span style=3D"color:rgb(255,143,46)">px</span><span style=3D"col=
+or:rgb(250,250,250)">;</span></div><div><span style=3D"color:rgb(187,187,18=
+7)">                        </span><span style=3D"color:rgb(250,250,250)">}=
+</span></div><div><span style=3D"color:rgb(187,187,187)">                </=
+span></div><div><span style=3D"color:rgb(187,187,187)">                    =
+    </span><span style=3D"color:rgb(250,250,250)">label</span><span style=
+=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,250,250)">=
+{</span></div><div><span style=3D"color:rgb(187,187,187)">                 =
+           </span><span style=3D"color:rgb(157,169,177)">display</span><spa=
+n style=3D"color:rgb(250,250,250)">:</span><span style=3D"color:rgb(187,187=
+,187)"> </span><span style=3D"color:rgb(191,188,182)">block</span><span sty=
+le=3D"color:rgb(250,250,250)">;</span></div><div><span style=3D"color:rgb(1=
+87,187,187)">                            </span><span style=3D"color:rgb(15=
+7,169,177)">margin-top</span><span style=3D"color:rgb(250,250,250)">:</span=
+><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(25=
+2,182,80)">10</span><span style=3D"color:rgb(255,143,46)">px</span><span st=
+yle=3D"color:rgb(250,250,250)">;</span></div><div><span style=3D"color:rgb(=
+187,187,187)">                        </span><span style=3D"color:rgb(250,2=
+50,250)">}</span></div><div><span style=3D"color:rgb(187,187,187)">        =
+        </span></div><div><span style=3D"color:rgb(187,187,187)">          =
+              </span><span style=3D"color:rgb(250,250,250)">input</span><sp=
+an style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(250,25=
+0,250)">{</span></div><div><span style=3D"color:rgb(187,187,187)">         =
+                   </span><span style=3D"color:rgb(157,169,177)">width</spa=
+n><span style=3D"color:rgb(250,250,250)">:</span><span style=3D"color:rgb(1=
+87,187,187)"> </span><span style=3D"color:rgb(252,182,80)">100</span><span =
+style=3D"color:rgb(255,143,46)">%</span><span style=3D"color:rgb(250,250,25=
+0)">;</span></div><div><span style=3D"color:rgb(187,187,187)">             =
+               </span><span style=3D"color:rgb(157,169,177)">padding</span>=
+<span style=3D"color:rgb(250,250,250)">:</span><span style=3D"color:rgb(187=
+,187,187)"> </span><span style=3D"color:rgb(252,182,80)">8</span><span styl=
+e=3D"color:rgb(255,143,46)">px</span><span style=3D"color:rgb(250,250,250)"=
+>;</span></div><div><span style=3D"color:rgb(187,187,187)">                =
+            </span><span style=3D"color:rgb(157,169,177)">margin-top</span>=
+<span style=3D"color:rgb(250,250,250)">:</span><span style=3D"color:rgb(187=
+,187,187)"> </span><span style=3D"color:rgb(252,182,80)">5</span><span styl=
+e=3D"color:rgb(255,143,46)">px</span><span style=3D"color:rgb(250,250,250)"=
+>;</span></div><div><span style=3D"color:rgb(187,187,187)">                =
+        </span><span style=3D"color:rgb(250,250,250)">}</span></div><div><s=
+pan style=3D"color:rgb(187,187,187)">                </span></div><div><spa=
+n style=3D"color:rgb(187,187,187)">                        </span><span sty=
+le=3D"color:rgb(250,250,250)">button</span><span style=3D"color:rgb(187,187=
+,187)"> </span><span style=3D"color:rgb(250,250,250)">{</span></div><div><s=
+pan style=3D"color:rgb(187,187,187)">                            </span><sp=
+an style=3D"color:rgb(157,169,177)">margin-top</span><span style=3D"color:r=
+gb(250,250,250)">:</span><span style=3D"color:rgb(187,187,187)"> </span><sp=
+an style=3D"color:rgb(252,182,80)">10</span><span style=3D"color:rgb(255,14=
+3,46)">px</span><span style=3D"color:rgb(250,250,250)">;</span></div><div><=
+span style=3D"color:rgb(187,187,187)">                            </span><s=
+pan style=3D"color:rgb(157,169,177)">padding</span><span style=3D"color:rgb=
+(250,250,250)">:</span><span style=3D"color:rgb(187,187,187)"> </span><span=
+ style=3D"color:rgb(252,182,80)">10</span><span style=3D"color:rgb(255,143,=
+46)">px</span><span style=3D"color:rgb(250,250,250)">;</span></div><div><sp=
+an style=3D"color:rgb(187,187,187)">                            </span><spa=
+n style=3D"color:rgb(157,169,177)">background-color</span><span style=3D"co=
+lor:rgb(250,250,250)">:</span><span style=3D"color:rgb(187,187,187)"> </spa=
+n><span style=3D"color:rgb(250,250,250)">#</span><span style=3D"color:rgb(1=
+03,140,177)">4CAF50</span><span style=3D"color:rgb(250,250,250)">;</span></=
+div><div><span style=3D"color:rgb(187,187,187)">                           =
+ </span><span style=3D"color:rgb(157,169,177)">color</span><span style=3D"c=
+olor:rgb(250,250,250)">:</span><span style=3D"color:rgb(187,187,187)"> </sp=
+an><span style=3D"color:rgb(224,226,228)">white</span><span style=3D"color:=
+rgb(250,250,250)">;</span></div><div><span style=3D"color:rgb(187,187,187)"=
+>                            </span><span style=3D"color:rgb(157,169,177)">=
+border</span><span style=3D"color:rgb(250,250,250)">:</span><span style=3D"=
+color:rgb(187,187,187)"> </span><span style=3D"color:rgb(191,188,182)">none=
+</span><span style=3D"color:rgb(250,250,250)">;</span></div><div><span styl=
+e=3D"color:rgb(187,187,187)">                            </span><span style=
+=3D"color:rgb(157,169,177)">border-radius</span><span style=3D"color:rgb(25=
+0,250,250)">:</span><span style=3D"color:rgb(187,187,187)"> </span><span st=
+yle=3D"color:rgb(252,182,80)">5</span><span style=3D"color:rgb(255,143,46)"=
+>px</span><span style=3D"color:rgb(250,250,250)">;</span></div><div><span s=
+tyle=3D"color:rgb(187,187,187)">                            </span><span st=
+yle=3D"color:rgb(157,169,177)">cursor</span><span style=3D"color:rgb(250,25=
+0,250)">:</span><span style=3D"color:rgb(187,187,187)"> </span><span style=
+=3D"color:rgb(191,188,182)">pointer</span><span style=3D"color:rgb(250,250,=
+250)">;</span></div><div><span style=3D"color:rgb(187,187,187)">           =
+             </span><span style=3D"color:rgb(250,250,250)">}</span></div><d=
+iv><span style=3D"color:rgb(187,187,187)">                    </span><span =
+style=3D"color:rgb(250,250,250)">&lt;/style&gt;</span></div><div><span styl=
+e=3D"color:rgb(187,187,187)">                </span><span style=3D"color:rg=
+b(250,250,250)">&lt;/head&gt;</span></div><div><span style=3D"color:rgb(187=
+,187,187)">                </span><span style=3D"color:rgb(250,250,250)">&l=
+t;body&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">        =
+        </span></div><div><span style=3D"color:rgb(187,187,187)">          =
+          </span><span style=3D"color:rgb(250,250,250)">&lt;h1&gt;</span><s=
+pan style=3D"color:rgb(187,187,187)">Calculadora de =C3=81reas</span><span =
+style=3D"color:rgb(250,250,250)">&lt;/h1&gt;</span></div><div><span style=
+=3D"color:rgb(187,187,187)">                </span></div><div><span style=
+=3D"color:rgb(187,187,187)">                    </span><span style=3D"color=
+:rgb(250,250,250)">&lt;label</span><span style=3D"color:rgb(187,187,187)"> =
+</span><span style=3D"color:rgb(157,169,177)">for</span><span style=3D"colo=
+r:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,182,80)">l=
+adoQuadrado</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;</span><=
+span style=3D"color:rgb(187,187,187)">Lado do Quadrado:</span><span style=
+=3D"color:rgb(250,250,250)">&lt;/label&gt;</span></div><div><span style=3D"=
+color:rgb(187,187,187)">                    </span><span style=3D"color:rgb=
+(250,250,250)">&lt;input</span><span style=3D"color:rgb(187,187,187)"> </sp=
+an><span style=3D"color:rgb(157,169,177)">type</span><span style=3D"color:r=
+gb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,182,80)">numb=
+er</span><span style=3D"color:rgb(250,250,250)">&quot;</span><span style=3D=
+"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(157,169,177)">id<=
+/span><span style=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D=
+"color:rgb(252,182,80)">ladoQuadrado</span><span style=3D"color:rgb(250,250=
+,250)">&quot;&gt;</span></div><div><span style=3D"color:rgb(187,187,187)"> =
+                   </span><span style=3D"color:rgb(250,250,250)">&lt;button=
+</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:=
+rgb(157,169,177)">onclick</span><span style=3D"color:rgb(250,250,250)">=3D&=
+quot;</span><span style=3D"color:rgb(224,226,228)">calcularAreaQuadrado</sp=
+an><span style=3D"color:rgb(252,182,80)">()</span><span style=3D"color:rgb(=
+250,250,250)">&quot;</span><span style=3D"color:rgb(250,250,250)">&gt;</spa=
+n><span style=3D"color:rgb(187,187,187)">Calcular =C3=81rea do Quadrado</sp=
+an><span style=3D"color:rgb(250,250,250)">&lt;/button&gt;</span></div><div>=
+<span style=3D"color:rgb(187,187,187)">                    </span><span sty=
+le=3D"color:rgb(250,250,250)">&lt;p</span><span style=3D"color:rgb(187,187,=
+187)"> </span><span style=3D"color:rgb(157,169,177)">id</span><span style=
+=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,18=
+2,80)">resultadoQuadrado</span><span style=3D"color:rgb(250,250,250)">&quot=
+;&gt;&lt;/p&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">   =
+             </span></div><div><span style=3D"color:rgb(187,187,187)">     =
+               </span><span style=3D"color:rgb(250,250,250)">&lt;label</spa=
+n><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(1=
+57,169,177)">for</span><span style=3D"color:rgb(250,250,250)">=3D&quot;</sp=
+an><span style=3D"color:rgb(252,182,80)">raioCirculo</span><span style=3D"c=
+olor:rgb(250,250,250)">&quot;&gt;</span><span style=3D"color:rgb(187,187,18=
+7)">Raio do C=C3=ADrculo:</span><span style=3D"color:rgb(250,250,250)">&lt;=
+/label&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">        =
+            </span><span style=3D"color:rgb(250,250,250)">&lt;input</span><=
+span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(157,=
+169,177)">type</span><span style=3D"color:rgb(250,250,250)">=3D&quot;</span=
+><span style=3D"color:rgb(252,182,80)">number</span><span style=3D"color:rg=
+b(250,250,250)">&quot;</span><span style=3D"color:rgb(187,187,187)"> </span=
+><span style=3D"color:rgb(157,169,177)">id</span><span style=3D"color:rgb(2=
+50,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,182,80)">raioCirc=
+ulo</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;</span></div><di=
+v><span style=3D"color:rgb(187,187,187)">                    </span><span s=
+tyle=3D"color:rgb(250,250,250)">&lt;button</span><span style=3D"color:rgb(1=
+87,187,187)"> </span><span style=3D"color:rgb(157,169,177)">onclick</span><=
+span style=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:=
+rgb(224,226,228)">calcularAreaCirculo</span><span style=3D"color:rgb(252,18=
+2,80)">()</span><span style=3D"color:rgb(250,250,250)">&quot;</span><span s=
+tyle=3D"color:rgb(250,250,250)">&gt;</span><span style=3D"color:rgb(187,187=
+,187)">Calcular =C3=81rea do C=C3=ADrculo</span><span style=3D"color:rgb(25=
+0,250,250)">&lt;/button&gt;</span></div><div><span style=3D"color:rgb(187,1=
+87,187)">                    </span><span style=3D"color:rgb(250,250,250)">=
+&lt;p</span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"c=
+olor:rgb(157,169,177)">id</span><span style=3D"color:rgb(250,250,250)">=3D&=
+quot;</span><span style=3D"color:rgb(252,182,80)">resultadoCirculo</span><s=
+pan style=3D"color:rgb(250,250,250)">&quot;&gt;&lt;/p&gt;</span></div><div>=
+<span style=3D"color:rgb(187,187,187)">                </span></div><div><s=
+pan style=3D"color:rgb(187,187,187)">                    </span><span style=
+=3D"color:rgb(250,250,250)">&lt;label</span><span style=3D"color:rgb(187,18=
+7,187)"> </span><span style=3D"color:rgb(157,169,177)">for</span><span styl=
+e=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,1=
+82,80)">baseTriangulo</span><span style=3D"color:rgb(250,250,250)">&quot;&g=
+t;</span><span style=3D"color:rgb(187,187,187)">Base do Tri=C3=A2ngulo:</sp=
+an><span style=3D"color:rgb(250,250,250)">&lt;/label&gt;</span></div><div><=
+span style=3D"color:rgb(187,187,187)">                    </span><span styl=
+e=3D"color:rgb(250,250,250)">&lt;input</span><span style=3D"color:rgb(187,1=
+87,187)"> </span><span style=3D"color:rgb(157,169,177)">type</span><span st=
+yle=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(252=
+,182,80)">number</span><span style=3D"color:rgb(250,250,250)">&quot;</span>=
+<span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:rgb(157=
+,169,177)">id</span><span style=3D"color:rgb(250,250,250)">=3D&quot;</span>=
+<span style=3D"color:rgb(252,182,80)">baseTriangulo</span><span style=3D"co=
+lor:rgb(250,250,250)">&quot;&gt;</span></div><div><span style=3D"color:rgb(=
+187,187,187)">                    </span><span style=3D"color:rgb(250,250,2=
+50)">&lt;label</span><span style=3D"color:rgb(187,187,187)"> </span><span s=
+tyle=3D"color:rgb(157,169,177)">for</span><span style=3D"color:rgb(250,250,=
+250)">=3D&quot;</span><span style=3D"color:rgb(252,182,80)">alturaTriangulo=
+</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;</span><span style=
+=3D"color:rgb(187,187,187)">Altura do Tri=C3=A2ngulo:</span><span style=3D"=
+color:rgb(250,250,250)">&lt;/label&gt;</span></div><div><span style=3D"colo=
+r:rgb(187,187,187)">                    </span><span style=3D"color:rgb(250=
+,250,250)">&lt;input</span><span style=3D"color:rgb(187,187,187)"> </span><=
+span style=3D"color:rgb(157,169,177)">type</span><span style=3D"color:rgb(2=
+50,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,182,80)">number</=
+span><span style=3D"color:rgb(250,250,250)">&quot;</span><span style=3D"col=
+or:rgb(187,187,187)"> </span><span style=3D"color:rgb(157,169,177)">id</spa=
+n><span style=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"col=
+or:rgb(252,182,80)">alturaTriangulo</span><span style=3D"color:rgb(250,250,=
+250)">&quot;&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">  =
+                  </span><span style=3D"color:rgb(250,250,250)">&lt;button<=
+/span><span style=3D"color:rgb(187,187,187)"> </span><span style=3D"color:r=
+gb(157,169,177)">onclick</span><span style=3D"color:rgb(250,250,250)">=3D&q=
+uot;</span><span style=3D"color:rgb(224,226,228)">calcularAreaTriangulo</sp=
+an><span style=3D"color:rgb(252,182,80)">()</span><span style=3D"color:rgb(=
+250,250,250)">&quot;</span><span style=3D"color:rgb(250,250,250)">&gt;</spa=
+n><span style=3D"color:rgb(187,187,187)">Calcular =C3=81rea do Tri=C3=A2ngu=
+lo</span><span style=3D"color:rgb(250,250,250)">&lt;/button&gt;</span></div=
+><div><span style=3D"color:rgb(187,187,187)">                    </span><sp=
+an style=3D"color:rgb(250,250,250)">&lt;p</span><span style=3D"color:rgb(18=
+7,187,187)"> </span><span style=3D"color:rgb(157,169,177)">id</span><span s=
+tyle=3D"color:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(25=
+2,182,80)">resultadoTriangulo</span><span style=3D"color:rgb(250,250,250)">=
+&quot;&gt;&lt;/p&gt;</span></div><div><span style=3D"color:rgb(187,187,187)=
+">                </span></div><div><span style=3D"color:rgb(250,250,250)">=
+                    &lt;script</span><span style=3D"color:rgb(187,187,187)"=
+> </span><span style=3D"color:rgb(157,169,177)">src</span><span style=3D"co=
+lor:rgb(250,250,250)">=3D&quot;</span><span style=3D"color:rgb(252,182,80)"=
+>script.js</span><span style=3D"color:rgb(250,250,250)">&quot;&gt;&lt;/scri=
+pt&gt;</span></div><div><span style=3D"color:rgb(187,187,187)">            =
+    </span><span style=3D"color:rgb(250,250,250)">&lt;/body&gt;</span></div=
+><div><span style=3D"color:rgb(187,187,187)">                </span><span s=
+tyle=3D"color:rgb(250,250,250)">&lt;/html&gt;</span></div><div><span style=
+=3D"color:rgb(187,187,187)">                </span></div></div></div>
+
+--000000000000c6e1810613276918--
